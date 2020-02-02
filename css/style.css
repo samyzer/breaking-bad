@@ -1,0 +1,718 @@
+body {
+    width: 100vw;
+}
+
+header {
+    height: 100vh;
+}
+
+.fotoHeader {
+    width: 100vw;
+    height: 100vh;
+}
+
+.logoHeader {
+    position: absolute;
+    height: 100px;
+    margin-top: 22%;
+    margin-left: 42%;
+}
+
+.buttonHeader1 {
+    margin-left: 43%;
+    margin-top: 31%;
+    height: 30px;
+    width: 150px;
+    font-family: 'Montserrat', Bold;
+    color: white;
+    background: #046529;
+    position: absolute;
+    font-size: 0.6em;
+}
+
+.buttonHeader2 {
+    margin-left: 5%;
+    margin-top: 38%;
+    height: 30px;
+    width: 150px;
+    font-family: 'Montserrat', Bold;
+    color: #046529;
+    background: white;
+    position: absolute;
+    font-size: 0.8em;
+}
+
+#toggle {
+    width: 525px;
+    height: 250px;
+    background: #046529;
+    position: absolute;
+    margin-top: -456px;
+    z-index: 1;
+    display: none;
+}
+
+.toggleText {
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Montserrat', Bold;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.audio {
+    margin-left: 5%;
+    margin-top: 25%;
+}
+
+.videoSection {
+    height: 850px;
+    width: 100vw;
+}
+
+.achtergrondblok {
+    height: 850px;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    position: absolute;
+    margin-top: -70px;
+}
+
+.titleVideoSection {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 1em;
+    color: #046529;
+    font-family: 'Montserrat', Bold;
+}
+
+.tekstVideoSection {
+    margin-left: 5%;
+    font-size: 0.8em;
+    color: black;
+    font-family: 'Montserrat', Bold;
+    margin-top: 0.5%;
+}
+
+#accordion {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.video-js {
+    height: 580px;
+    width: 100%;
+}
+
+.video:hover .buttons {
+    opacity: 1;
+}
+
+.buttons {
+    margin-top: 20%;
+    margin-left: 34%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#toggle1,
+#toggle2,
+#toggle3 {
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/play@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 50px;
+}
+
+#rewind1,
+#rewind2,
+#rewind3 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/rewind@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 50px;
+}
+
+.grid {
+    height: 1200px;
+}
+
+.titleGrid {
+    margin-left: 46%;
+    font-size: 1.2em;
+    color: #046529;
+    font-family: 'Montserrat', Bold;
+}
+
+#actors {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+}
+
+.actor1 {
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.actor2 {
+    margin-top: 3%;
+    margin-left: 38%;
+}
+
+.actor3 {
+    margin-top: 3%;
+    margin-left: 64%;
+}
+
+.actor4 {
+    margin-top: 29%;
+    margin-left: 12%;
+}
+
+.actor5 {
+    margin-top: 29%;
+    margin-left: 38%;
+}
+
+.actor6 {
+    margin-top: 29%;
+    margin-left: 64%;
+}
+
+.actor7 {
+    margin-top: 55%;
+    margin-left: 12%;
+    float: left;
+}
+
+.actor8 {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    margin-top: 55%;
+    margin-left: 38%;
+}
+
+.actor9 {
+    margin-top: 55%;
+    margin-left: 64%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-color: #046529;
+}
+
+.actor1:hover .overlay,
+.actor2:hover .overlay,
+.actor3:hover .overlay,
+.actor4:hover .overlay,
+.actor5:hover .overlay,
+.actor6:hover .overlay,
+.actor7:hover .overlay,
+.actor8:hover .overlay,
+.actor9:hover .overlay {
+    opacity: 0.9;
+}
+
+.nameActor {
+    font-size: 2em;
+    color: white;
+    font-family: 'Montserrat', Bold;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.tekstBlok {
+    font-size: 0.9em;
+    color: white;
+    font-family: 'Montserrat', Bold;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 20%;
+}
+
+.textSection {
+    height: 2900px;
+    width: 76%;
+    margin-left: 12%;
+    position: absolute;
+}
+
+.paragraafTitel {
+    margin-top: 5%;
+    font-size: 1.3em;
+    color: #046529;
+    font-family: 'Montserrat', Bold;
+}
+
+.paragraafTekst {
+    font-size: 1em;
+    color: black;
+    font-family: 'Montserrat', Bold;
+}
+
+#paragraafTekst2,
+#paragraafTekst3,
+#paragraafTekst4,
+#paragraafTekst5,
+#paragraafTekst6 {
+    margin-top: 1.5%;
+}
+
+.fotoTekst {
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.p5Canvas {
+    margin-left: 24%;
+    margin-top: -60%;
+    float: left;
+}
+
+.p5section {
+    width: 76%;
+    margin-left: 12%;
+    position: absolute;
+    margin-top: 2900px;
+}
+
+.p5Titel {
+    font-size: 1.3em;
+    color: #046529;
+    font-family: 'Montserrat', Bold;
+}
+
+.p5Tekst {
+    font-size: 1em;
+    color: black;
+    font-family: 'Montserrat', Bold;
+}
+
+.buttonP5 {
+    height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', Bold;
+    color: white;
+    background: #046529;
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Montserrat', Bold;
+}
+
+#coloredtext {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#rainbowcolors {
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+#slider {
+    margin-top: 10%;
+    margin-left: 16%;
+    height: 10px;
+    width: 72%;
+    background: #046529;
+}
+
+.responsive {
+    display: none;
+}
+
+footer {
+    height: 80px;
+    background: #046529;
+    margin-top: 3900px;
+}
+
+.logoFooter {
+    position: absolute;
+    height: 60px;
+    margin-top: 0.7%;
+    margin-left: 12%;
+}
+
+.textFooter {
+    font-size: 1em;
+    color: white;
+    font-family: 'Montserrat', Bold;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 80vh;
+    }
+
+    .fotoHeader {
+        height: 80vh;
+    }
+
+    .buttonHeader2 {
+        margin-top: 30%;
+    }
+
+    #toggle {
+        height: 220px;
+    }
+
+    .toggleText {
+        font-size: 1em;
+    }
+
+    .audio {
+        margin-top: 15%;
+    }
+
+    .titleGrid {
+        margin-left: 50%;
+    }
+
+    .actor1 {
+        margin-left: 2%;
+    }
+
+    .actor2 {
+        margin-left: 35%;
+    }
+
+    .actor3 {
+        margin-left: 68%;
+    }
+
+    .actor4 {
+        margin-top: 35%;
+        margin-left: 2%;
+    }
+
+    .actor5 {
+        margin-top: 35%;
+        margin-left: 35%;
+    }
+
+    .actor6 {
+        margin-top: 35%;
+        margin-left: 68%;
+    }
+
+    .actor7 {
+        margin-top: 67.5%;
+        margin-left: 2%;
+    }
+
+    .actor8 {
+        margin-top: 67.5%;
+        margin-left: 35%;
+    }
+
+    .actor9 {
+        margin-top: 67.5%;
+        margin-left: 68%;
+    }
+
+    .p5Canvas {
+        margin-left: 18%;
+        margin-top: -70%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .buttonHeader1 {
+        margin-top: 35%;
+    }
+
+    .buttons {
+        margin-top: 25%;
+    }
+
+    .grid {
+        height: 1030px;
+    }
+
+    #actors {
+        height: 300px;
+        width: 300px;
+    }
+
+    .nameActor {
+        font-size: 1.8em;
+    }
+
+    .tekstBlok {
+        font-size: 0.7em;
+    }
+
+    .p5Canvas {
+        margin-left: 12%;
+        margin-top: -80%;
+    }
+
+    #slider {
+        margin-top: 18%;
+    }
+
+    .logoFooter {
+        margin-top: 1%;
+    }
+
+    .textFooter {
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fotoHeader {
+        width: 100vw;
+        height: 75vh;
+    }
+
+    .logoHeader {
+        margin-top: 30%;
+    }
+
+    .buttonHeader1 {
+        margin-left: 43%;
+        margin-top: 45%;
+    }
+
+    .buttonHeader2 {
+        margin-top: 40%;
+    }
+
+    #toggle {
+        width: 50%;
+        height: 200px;
+        margin-top: -456px;
+    }
+
+    .toggleText {
+        font-size: 0.8em;
+        margin-top: 5%;
+    }
+
+    .audio {
+        margin-left: 4%;
+        margin-top: 20%;
+    }
+
+    .videoSection {
+        height: 500px;
+    }
+
+    .achtergrondblok {
+        height: 500px;
+    }
+
+    .video-js {
+        height: 300px;
+    }
+
+    .buttons {
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+
+    #toggle1,
+    #toggle2,
+    #toggle3 {
+        width: 70px;
+        height: 70px;
+    }
+
+    #rewind1,
+    #rewind2,
+    #rewind3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .grid {
+        height: 800px;
+    }
+
+    #actors {
+        position: absolute;
+        height: 230px;
+        width: 230px;
+    }
+
+    .nameActor {
+        font-size: 1.5em;
+    }
+
+    .tekstBlok {
+        font-size: 0.6em;
+    }
+
+    .p5Canvas {
+        display: none;
+    }
+
+    .buttonP5 {
+        display: none;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .responsive {
+        height: 130px;
+        width: 100%;
+        background: #046529;
+        display: block;
+        margin-top: 5%;
+    }
+
+    .responsiveText {
+        font-size: 2em;
+        color: white;
+        font-family: 'Montserrat', Medium;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 60vh;
+    }
+
+    .fotoHeader {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .logoHeader {
+        height: 70px;
+        margin-top: 40%;
+    }
+
+    .buttonHeader1 {
+        margin-top: 60%;
+        height: 20px;
+        width: 95px;
+        font-size: 0.3em;
+    }
+
+    .buttonHeader2 {
+        height: 20px;
+        width: 95px;
+        font-size: 0.3em;
+        margin-top: 45%;
+    }
+
+    #toggle {
+        width: 250px;
+        height: 150px;
+        margin-top: -300px;
+    }
+
+    .toggleText {
+        font-size: 0.8em;
+    }
+
+    .audio {
+        margin-top: 35%;
+        width: 150px;
+        height: 20px;
+    }
+
+    .videoSection {
+        height: 400px;
+    }
+
+    .achtergrondblok {
+        height: 400px;
+    }
+
+    .video-js {
+        height: 200px;
+    }
+
+    .buttons {
+        margin-top: 13%;
+        margin-left: 18%;
+    }
+
+    .grid {
+        height: 540px;
+    }
+
+    #actors {
+        position: absolute;
+        height: 140px;
+        width: 140px;
+    }
+
+    .tekstBlok {
+        display: none;
+    }
+
+    .textSection {
+        height: 1000px;
+    }
+
+    .paragraafTitel {
+        font-size: 1em;
+    }
+
+    .paragraafTekst {
+        font-size: 0.7em;
+    }
+
+    .logoFooter {
+        height: 50px;
+        margin-top: 3.5%;
+    }
+
+    .textFooter {
+        margin-left: 35%;
+        margin-top: 6%;
+    }
+
+    .p5Canvas {
+        display: none;
+    }
+
+    #buttonP5 {
+        display: none;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .responsive {
+        height: 155px;
+    }
+}
